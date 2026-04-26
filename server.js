@@ -5,8 +5,8 @@ import cors from "cors";
 const app = express();
 app.use(cors());
 
-const CLIENT_ID = "1b382818813e459facd9758f6efbe0d3";
-const CLIENT_SECRET = "f57ae1758b3b49e19be3f87d9ed5820a";
+const CLIENT_ID = "65f2d3d0b4be4ae0aa622e65c09f1d6b";
+const CLIENT_SECRET = "8a32374844494397b255d5448b4dd1a3";
 
 async function getToken() {
   const res = await fetch("https://accounts.spotify.com/api/token", {
